@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/book_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Book Title" />
+
+    <EditText
+        android:id="@+id/book_rating"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter a Rating:" ></EditText>
+
+    <TextView
+        android:id="@+id/book_pages"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Number of Pages: " />
+</LinearLayout>
